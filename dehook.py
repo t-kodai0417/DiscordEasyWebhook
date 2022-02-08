@@ -39,8 +39,8 @@ def easy_embed(webhook,title,description):
   main_content = {
     #embed----------------------
     "embeds": [{
-    "title": "Hello!",
-    "description": "Hi! :grinning:"
+    "title": f"{title}!",
+    "description": f"{description}"
     }]
     #--------------------------------
   }
