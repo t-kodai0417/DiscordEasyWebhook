@@ -39,7 +39,7 @@ def easy_embed(webhook,title,description):
   main_content = {
     #embed----------------------
     "embeds": [{
-    "title": f"{title}!",
+    "title": f"{title}",
     "color": 15258703,
     "description": f"{description}"
     }]
